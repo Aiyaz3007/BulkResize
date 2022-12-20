@@ -3,7 +3,9 @@ Resize Bulk Images
 
 
 parser.add_argument('-r','--resize', nargs='+', help="pass the resize resolution", type=int)
+
 parser.add_argument("-s","--source", help="pass the source directory" )
+
 parser.add_argument("-t","--target", help="pass the target directory" )
 
 Command:
