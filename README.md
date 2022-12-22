@@ -10,6 +10,5 @@ parser.add_argument("-t","--target", help="pass the target directory" )
 
 **Command**:
 
-python resizeBulkImage.py -r 100 100 -s myData -t destination
-                          
-                          --resize 100 100 --source myData --target destination
+python resizeBulkImage.py -r 100 100 -s myData -t destination 
+
